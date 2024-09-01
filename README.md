@@ -1,5 +1,5 @@
-# PDF Chatbot
-This application, built with Streamlit, leverages a combination of advanced technologies from the LangChain suite to create an interactive PDF chatbot. Users can upload PDF documents, which are then processed to facilitate natural language interactions. The application extracts content from the uploaded PDFs, enabling users to ask questions about the document through a chatbot interface.
+# PDF Chatbot with RAG
+This application, built with Streamlit, leverages a combination of advanced technologies from the LangChain suite to create an interactive PDF chatbot through a retrieval augmented generation (RAG) framework. Users can upload PDF documents, which are then processed to facilitate natural language interactions. The application extracts content from the uploaded PDFs, enabling users to ask questions about the document through a chatbot interface.
 
 ## Key Features:
 - PDF Upload and Processing: Users can upload PDF files, which are then processed using semantic chunking to segment the text into manageable pieces, embedded using the OpenAI embeddings model, and then stored in a ChromaDB vector database.
