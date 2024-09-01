@@ -1,12 +1,10 @@
-Wokring on a chatbot in which you can ask questions based on documents you upload. Uses OpenAI, Flask, FAISS, and more. 
+PDF Chatbot
+This application, built with Streamlit, leverages a combination of advanced technologies from the LangChain suite to create an interactive PDF chatbot. Users can upload PDF documents, which are then processed to facilitate natural language interactions. The application extracts content from the uploaded PDFs, enabling users to ask questions about the document through a chatbot interface.
 
+Key Features:
+- PDF Upload and Processing: Users can upload PDF files, which are then processed using semantic chunking to segment the text into manageable pieces and stored in a ChromaDB vector database.
+- OpenAI LLM: Users can chat with the start of the art gpt-4o model from OpenAI
+- Interactive Q&A: Once a PDF is processed, users can engage in a chat with the system, asking questions related to the document contents. Chat history is stored allowing the user to ask follow ups and get all their questions thoroughly answered.
 
-EXAMPLE:
-After inputting a chapter from my philosophy class's textbook, I asked the chatbot to explain what the design argument was. 
-
-![chatbot example](https://github.com/ansh5rana/PDFChatbot/assets/62038994/f29ec12b-192a-4e28-9e3c-d8a6355409d0)
-
-
-Inspiration from:
-- https://www.linkedin.com/feed/update/urn:li:activity:7155658535672889344/
-- https://github.com/bnsreenu
+Setup and Configuration
+Users need to specify their OpenAI API key in the script to interact with the OpenAI models.
