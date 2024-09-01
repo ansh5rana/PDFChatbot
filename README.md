@@ -1,4 +1,4 @@
-PDF Chatbot
+#PDF Chatbot
 This application, built with Streamlit, leverages a combination of advanced technologies from the LangChain suite to create an interactive PDF chatbot. Users can upload PDF documents, which are then processed to facilitate natural language interactions. The application extracts content from the uploaded PDFs, enabling users to ask questions about the document through a chatbot interface.
 
 Key Features:
